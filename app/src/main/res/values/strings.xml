@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">ITS YOUR TIME, NOW</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_beauty">Beauty</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_beauty_care">BeautyCare</string>
+    <string name="tab_text_1">HAIR</string>
+    <string name="tab_text_2">NAILS</string>
+    <string name="tab_text_3">MAKEUP</string>
+    <string-array name="makeup_spinner">
+        <item> Contouring</item>
+        <item> EYE</item>
+        <item> LIPS</item>
+    </string-array>
+
+    <string-array name="hair_spinner">
+        <item> LONG***HAIR</item>
+        <item> MEDIUM**HAIR</item>
+    </string-array>
+
+    <string-array name="nails_spinner">
+        <item> Shape**Trends</item>
+        <item> Color**Trends</item>
+    </string-array>
+
+    <string name="hairstyle1"> >>> Instructions:\n 1. Make a high ponytail with cheap human hair extensions first if your hair is not long or thick enough.\n
+        2. Divide it into three even parts and braid each section with patience. There is nothing special, just keep on braiding.\n
+        N.B. But one point here is you should gently pull the hair at the very edge of the braid outward.\n
+        3. Secure the braid at the end of it with an elastic cord.\n
+        NOW, Follow the steps and finish the braid of the rest two sections.\n
+        4. After you finish, “wrap each braid around the base of the ponytail directing its volumed side outward” and use a bobby pin to secure it.
+        The second and third braids are similar to the first one.\n
+        5. Hide the ends of the braids by folding them or tucking them under a thick braid.\n
+        6. Tuck any naughty strands of hair back into your braid and secure them with bobby pins and/or hairspray.</string>
+
+    <string name="hairstyle2"> >>> N.B. This hairstyle is suitable for medium length hair:\n
+        1. Use a comb to divide your hair into three sections and make sure there is one strand left on each side of your head.\n
+        2. Secure them with hairpin and tie the hair at the back of your head into a high ponytail.\n
+        3. Pull the rubber band a little backward so that the ponytail can be looser.\n
+        4. Use your hand to make a hole in the area of the back side of your head.\n
+        5. NOW, Put the ponytail into the hole gently so that all the hair can be hidden perfectly.\n
+        NOTE THAT, The ponytail should not be so long that it cannot be hidden well.\n
+        6. Then, it is the time to twist the left two sections:\n
+        6.1. Divide the strand in one side into two parts and for the up section, divide it into two even parts and twist them.\n
+        6.2. While you are twisting, remember to add more hair into one side just like the French braid.\n
+        6.3. After you finish the one side, keep twisting as before in the other side.\n
+        7. Finally, Secure your updo with bobby pins and if you like, you can choose to add a flower or other beautiful accessories.</string>
+
+    <string name="hairstyle3"> >>> This gorgeous waterfall braid keeps your hair looking cute and styled in all weather.You need to have long hair for this.\n
+Steps:\n
+1. Separate the hair in 3 sections and the one from the middle should be between the corners of your head.\n
+2. Use bobby pins to hold the side hair down and start working on the top section.\n
+3. Start braiding a regular french braid and instead of going with it normal until the end, drop down small pieces of hair as you can see in the pictures. Do the same for both sides. The hair that it is left over can be replaced with other hair so you can finish the braid.\n
+4. When you get to the back of your head, secure the braid with a bobby pin.\n
+5. Start braiding the sides, take a small section of hair, and with the first strand that was left over, start doing the side braid including that in it. Do a regular french braid by bringing in all the strands from the waterfall braid and when you reach the back of your head secure it with bobby pins.\n
+6. Repeat the process the same way for the other side and you will have all the braids done.\n
+7. Brush the rest of your hair and gather it in a ponytail right at the back of your head where the pins are.\n
+8. Create a bun from the ponytail and voila, you are ready!</string>
+
+    <string name="hair_loss_tips">\t\t\t\t\t\t\t\t\t\tEgg MASK\n\n
+        >>> Eggs are rich in sulphur, phosphorous, selenium, iodine, zinc and protein, which together help promote hair growth.\n\n
+        ** To prepare this BEST MASK,\n
+        1. Separate one egg white in a bowl and add a teaspoon each of olive oil and honey.\n
+        2. Beat to make a paste and apply it all over from root to tips.\n
+        3. After 20 minutes, rinse with a mild shampoo.
+    </string>
+
+    <string name="split_ends">
+        \t\t\t\t\t\t\t\t\t\tEgg YOLK\n\n
+        Using egg as a hair mask is one of the best and most effective remedies of all time. Eggs help cure your frizzy hair and give them a healthier shine.\nThe egg yolk is the protagonist here. It has an adequate amount of protein that strengthens the strands of your hair and prevents any split ends. Egg also works as a moisturiser and conditioner for your hair.
+    </string>
+
+    <string name="dandruff">
+        \t\t\t\t\t\tCoconut Oil and Lemon Massage\n\n
+        >> Coconut oil nourishes your hair, while lemon juice helps to treat dandruff at home without using harmful chemicals. Given below is the easiest dandruff home remedy:\n
+
+\n *Step 1: Heat 2 tablespoons of coconut oil and mix it with equal amounts of lemon juice.\n
+*Step 2: Massage your scalp gently with the mixture.\n
+*Step 3: Leave it on for 20 minutes before rinsing if off with shampoo.
+    </string>
+
+    <string name="nails_care">
+        1. Keep YOUR hands very clean\n
+Before you do anything, it\'s important to make sure your nails and the skin around them are thoroughly dirt-free. Then remove all traces of your last color with an acetone-free remover
+        . Dr. Ava Shamban recommends applying soap to a toothbrush, then gently scrubbing your nails and skin.\n
+    2. Always HAVE an emery board on hand\n
+If you\'re someone whose work causes a lot of wear and tear, Dr. Prystowsky suggests keeping a nail file handy to smooth away
+        any rough edges that happen on the spot. The best way to do it? Work in one direction with the grain of your nail for a smoother finish.\n
+    3. Take Care of YOUR tools\n
+Disinfecting your nail tools between uses is just as important as regularly cleaning your makeup brushes, and for the same reason — bacteria. Dr. Prystowski advises washing metal tools with soap and water and then wiping with rubbing alcohol.\n
+    4. Consider YOUR diet ALSO\n
+Your fingernails are made of a protein called keratin, so just as with the clarity of your skin or the shine of your hair, you can improve your nails by tweaking your diet. Falcone advises adding vitamins and supplements like biotin, Vitamin E, and fish oil to your daily regimen, while Dr. Palmer recommends protein-rich foods like beans, fish, and nuts. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_beauty_options">BeautyOptions</string>
+    <string name="title_activity_appointment__options">Appointment_Options</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

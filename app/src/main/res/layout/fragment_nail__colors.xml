@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srourcompu.itsyourtimenow.Nail_Colors">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nails3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/takecare_nails"
+            android:layout_marginTop="20dp"
+            android:text="\t\t\t\t\tWinter 2019 Nail COLOR Trends"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/color1_nails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nails3"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic|bold"
+            android:textSize="18dp"
+            android:text="#1. The revamped French manicure" />
+
+        <ImageView
+            android:id="@+id/french_manicure"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/french"/>
+
+        <TextView
+            android:id="@+id/color2_nails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nails3"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic|bold"
+            android:textSize="18dp"
+            android:text="#2. The Half MOON" />
+
+        <ImageView
+            android:id="@+id/half_moon"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/moon"/>
+
+        <TextView
+            android:id="@+id/color3_nails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nails3"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic|bold"
+            android:textSize="18dp"
+            android:text="#3. The POP" />
+
+        <ImageView
+            android:id="@+id/pop"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/pop"/>
+
+        <TextView
+            android:id="@+id/color4_nails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nails3"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic|bold"
+            android:textSize="18dp"
+            android:text="#4. The misMatched" />
+
+        <ImageView
+            android:id="@+id/mismatched"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/mismatched"/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

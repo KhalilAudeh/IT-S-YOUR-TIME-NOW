@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    tools:context="com.example.srourcompu.itsyourtimenow.Sign_In">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:drawableLeft="@drawable/ic_action_image"
+        android:ems="10"
+        android:hint="User ID"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/userId"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_action_image"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/userId"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="49dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/login_bttn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="Login >>>"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_reset_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:background="@null"
+        android:text="Forget Your Password? Don't Worry!"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>
+
+

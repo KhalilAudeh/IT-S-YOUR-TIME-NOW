@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srourcompu.itsyourtimenow.Add_Reminder">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="16dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/Reminder_Text"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textCapWords|textMultiLine"
+        android:hint="YOUR Reminder"
+        android:textStyle="italic"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Reminder_Text"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="setDate">
+
+                <ImageView
+                    android:id="@+id/date_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/date_icon"
+                    android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/date_icon">
+
+                    <TextView
+                        android:id="@+id/date_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\tDate"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_date"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="setTime">
+
+                <ImageView
+                    android:id="@+id/time_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/time_icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/time_icon">
+
+                    <TextView
+                        android:id="@+id/time_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\tTime"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/repeat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/repeat_icon"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/repeat_icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/repeat_icon">
+
+                    <TextView
+                        android:id="@+id/repeat_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\tRepeat"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/set_repeat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="\t\t"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/repeat_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSwitchRepeat"
+                    android:checked="true"
+                    android:textOn="On"
+                    android:textOff="Off"
+                    android:layout_marginLeft="320dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/repeat_number"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="setRepeatNumber">
+
+                <ImageView
+                    android:id="@+id/repeat_number_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/repeat_number_icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/repeat_number_icon">
+
+                    <TextView
+                        android:id="@+id/repeat_number_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\tRepeat Number"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/star1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollView2"
+        android:layout_toStartOf="@+id/Reminder_Text"
+        android:clickable="true"
+        android:onClick="selectFab1"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/gray"
+        app:fab_icon="@drawable/ic_volume_off_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollView2"
+        android:layout_toStartOf="@+id/Reminder_Text"
+        android:clickable="true"
+        android:onClick="selectFab2"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/gray"
+        app:fab_icon="@drawable/ic_volume_up_black_24dp"/>
+
+</RelativeLayout>

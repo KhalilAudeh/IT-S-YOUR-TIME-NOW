@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.srourcompu.itsyourtimenow.BeautyOptions"
+    tools:showIn="@layout/activity_beauty_options">
+
+    <Button
+        android:id="@+id/hair_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="HAIR" />
+
+    <Button
+        android:id="@+id/nail_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hair_button"
+        android:layout_below="@+id/hair_button"
+        android:layout_marginTop="35dp"
+        android:text="NAILS"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/makeup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nail_button"
+        android:layout_below="@+id/nail_button"
+        android:layout_marginTop="27dp"
+        android:text="MAKEUP"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+
+</RelativeLayout>

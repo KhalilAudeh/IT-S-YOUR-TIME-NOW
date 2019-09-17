@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "526821490265",
+    "firebase_url": "https://itsyourtimenow-b6f65.firebaseio.com",
+    "project_id": "itsyourtimenow-b6f65",
+    "storage_bucket": "itsyourtimenow-b6f65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526821490265:android:bc22e0a17243a97f",
+        "android_client_info": {
+          "package_name": "com.example.srourcompu.itsyourtimenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526821490265-7rt2gbarc14ckir61v0qf669r6r1jvia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srourcompu.itsyourtimenow",
+            "certificate_hash": "4c708f9cfa0456ae042860b83576c48ffe5806fc"
+          }
+        },
+        {
+          "client_id": "526821490265-22g8ap1qgc6vkuc36otbngs4sj5vqo11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi39hKHC5KKc-mck4EbrSV41UO-DVrs2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526821490265-22g8ap1qgc6vkuc36otbngs4sj5vqo11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

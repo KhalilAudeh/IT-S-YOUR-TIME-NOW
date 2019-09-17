@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    tools:context="com.example.srourcompu.itsyourtimenow.Makeup_Page">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="120dp"
+            android:text="Choose YOUR \n\t\tCategory \n\t in MAKEUP"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/makeup_spinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="40dp"/>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/makeup_spinner"
+        android:layout_marginTop="46dp">
+
+    </FrameLayout>
+
+</RelativeLayout>

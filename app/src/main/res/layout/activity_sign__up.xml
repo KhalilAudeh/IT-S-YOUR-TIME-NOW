@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sign_up_background"
+    tools:context="com.example.srourcompu.itsyourtimenow.Sign_Up">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/choose_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="choose"/>
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="upload" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientID"
+            android:hint="Your ID Number"
+            android:textColorHint="@android:color/black"
+            android:text="2018***"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientName"
+            android:hint="Name Please"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientPhone"
+            android:hint="Phone Number"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientDateOfBirth"
+            android:hint="Date Of Birth (Year ONLY)"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientPassword"
+            android:hint="Password"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/profile_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="27dp"
+        android:text="sign up"
+        android:background="@color/colorAccent"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+</RelativeLayout>

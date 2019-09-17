@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    tools:context="com.example.srourcompu.itsyourtimenow.Health_Options">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="WELCOME TO YOUR\n\t\t HEALTH PART"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/bmi_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/settings_button"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="77dp"
+        android:background="@color/colorPrimary"
+        android:text="Know YOUR Health"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/bmi_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorPrimary"
+        android:text="SETTINGS"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

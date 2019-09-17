@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srourcompu.itsyourtimenow.Long_Hair">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section_hair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp"
+            android:text="HairStyle Techniques YOU can do
+                     ALONE !!"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/section_hair"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hairstyle1" />
+
+        <TextView
+            android:id="@+id/hair1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hairstyle1"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/imageView3"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hair2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hairstyle3"/>
+
+        <TextView
+            android:id="@+id/hair3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hairstyle3"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/imageView5"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
